@@ -36,7 +36,7 @@
 
     h1.is-bordered {
         margin: 0;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     i {
@@ -46,7 +46,7 @@
     }
 
     .columns {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .column {
@@ -74,5 +74,231 @@
 
     .button:hover {
         background-color: lighten(#048A81, 10%);
+    }
+}
+
+/* features */
+#features {
+    padding: 50px 0;
+    h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .title-section {
+        margin-bottom: 40px;
+    }
+    .border {
+        margin-bottom: 60px;
+    }
+    .feature-circle {
+        height: 64px;
+        width: 64px;
+        background-color: $primary-self;
+        border-radius: 50%;
+        text-align:center;
+        margin-top: -5px;
+    }
+
+    i {
+        line-height: 64px;
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .column {
+        h3 {
+            margin-bottom: 15px;
+            font-size: 17px;
+            text-transform: uppercase;
+            color: #444;
+            font-weight: bolder;
+        }
+
+        p {
+            font-size: 13px;
+            color: #aaa;
+        }
+    }
+}
+
+#showcase {
+    .border {
+        margin-bottom: 40px;
+    }
+    padding: 40px 0;
+
+    h1 {
+        text-transform: uppercase;  
+    }
+
+    .carousel-item {
+        padding: 0;
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}
+
+#opportunity {
+    padding: 40px 0;
+
+    .title-section {
+        padding-bottom: 30px;
+
+        p {
+            padding: 20px 0;
+        }
+    }
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    .content-section {
+        text-align: center;
+
+        p {
+            padding: 30px 0;
+        }
+
+        i {
+            padding-right: 10px;
+        }
+
+        button {
+            border-radius: 5px;
+            border-bottom: 3px solid rgba(0,0,0,0.15);
+            padding: 0 26px;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+            height: 50px;
+            letter-spacing: 1px;
+            line-height: 46px;
+            margin-right: 10px;
+        }
+    }
+}
+
+#chairman {
+    padding: 60px 0;
+
+    .chairman {
+        background-image: url(/themes/inovidea-builder-app/assets/images/chairman.jpeg);
+        background-repeat: no-repeat;
+        height: 600px;
+        background-size: cover;
+        background-position-x: -200px;
+        box-shadow: 20px 20px 10px #666;
+    }
+
+    .border {
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-weight: 100;
+        font-size: 27px;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    h4 {
+       padding: 20px 40px;
+       padding: 30px 40px 20px 40px;
+       font-size: 20px;
+       font-weight: 600;
+       font-style: italic;
+       color: #555;
+    }
+}
+
+#testimony {
+    background-image: url(/themes/inovidea-builder-app/assets/images/phone-to-testimo2.jpeg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    padding: 40px 0;
+
+    h1 {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    h1.quote {
+        padding: 30px 70px 0px 70px;
+        text-transform: none;
+        font-size: 19px;
+        font-style: italic;
+    }
+
+    .border {
+        margin-bottom: 40px;
+        background-color: #888 !important;
+    }
+
+    h5 {
+        padding-top: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .navnav {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+
+        .navball {
+            display: inline-block;
+            text-align: center;
+            height: 10px;   
+            width: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            padding-right: 5px;
+        }
+    }
+}
+
+#offering {
+    padding: 40px 0;
+
+    h1 {
+        word-spacing: 5px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        color: #aaa;
+        font-size: 23px;
+        font-weight: 100;
+        padding-bottom: 20px;
+    }
+
+    a {
+        border-radius: 5px;
+        border-bottom: 5px solid rgba(0,0,0,0.15);
+        padding: 0 26px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        height: 50px;
+        letter-spacing: 1px;
+        line-height: 46px;
+        margin-right: 10px;
     }
 }

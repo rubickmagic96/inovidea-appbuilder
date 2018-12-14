@@ -23,13 +23,25 @@ description = "Default layout"
     <!-- Header -->
     {% partial 'navbar' %}
 
-    <!-- Content -->
+    <!-- Content -->    
     <section id="layout-content">
         {% page %}
+
+        
+        <!-- Footer -->
+        {% partial 'footer' %}
     </section>
 
     <!-- Scripts -->
     <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+    <script src="{{ 'assets/vendor/bulma-carousel.js'|theme }}"></script>
+
+    <script>
+        $(document).ready(function () {
+            var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
+        });
+    </script>
+
     <script src="{{ 'assets/dist/js/app.js'|theme }}"></script>
     {% framework extras %}
     {% scripts %}
