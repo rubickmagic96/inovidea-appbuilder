@@ -1,0 +1,13 @@
+/* self defined */
+$primary-self: #ff3860;
+
+/* font-awesome customization */
+$fa-font-path: "/themes/inovidea-builder-app/assets/fonts";
+
+/* bulma customization */
+$navbar-background-color: transparent;
+$navbar-height: 6rem;
+$navbar-padding-horizontal: 5rem;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-active-color: $primary-self;
+$navbar-item-hover-color: $primary-self;

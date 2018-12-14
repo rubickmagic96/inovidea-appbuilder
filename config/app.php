@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'debug' => true,
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'http://www.inovidea-builderapp.local',
+    'url' => env('APP_URL', 'http://www.inovidea-builderapp.local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'key' => 'kwxRlIOSTfTzUsWD9j8j3oAI6c1wmpvk',
+    'key' => env('APP_KEY', ''),
 
     'cipher' => 'AES-256-CBC',
 

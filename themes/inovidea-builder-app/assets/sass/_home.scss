@@ -1,0 +1,78 @@
+#header {
+    height: 85%;
+
+    .container {
+        padding: 8rem 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-shadow: 3px 3px 7px #fff;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $primary-self;
+        text-shadow: rgb(255, 255, 255) -1px -1px 0px, rgb(255, 255, 255) 1px -1px 0px, rgb(255, 255, 255) -1px 1px 0px, rgb(255, 255, 255) 1px 1px 0px;
+    }
+
+    a {
+        border-radius: 5px;
+        border-bottom: 5px solid rgba(0,0,0,0.15);
+        padding: 0 26px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        height: 50px;
+        letter-spacing: 1px;
+        line-height: 46px;
+        margin-right: 10px;
+    }
+}
+
+#content {
+    padding: 6rem 0;
+
+    h1.is-bordered {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    i {
+        font-size: 6rem;
+        margin-bottom: 1rem;
+        color: $primary-self;
+    }
+
+    .columns {
+        margin-top: 2rem;
+    }
+
+    .column {
+        h1 {
+           font-size: 1.4rem;
+           font-weight: bolder;
+           padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .button {
+        margin-top: 50px;
+        padding: 1.5rem 2rem;
+        background-color: #048A81;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border-bottom: 5px solid rgba(0,0,0,0.15);
+        letter-spacing: 1px;
+    }
+
+    .button:hover {
+        background-color: lighten(#048A81, 10%);
+    }
+}
